@@ -1,0 +1,1897 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                              ./src/systick_delay.o (Board_LED_Set)
+D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+                              ./src/sysinit.o (Board_SystemInit)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+                              ./src/systick_delay.o (SystemCoreClock)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o) (Chip_Clock_GetSystemClockRate)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o) (Chip_GPIO_Init)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o) (Chip_SWM_MovablePinAssign)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o) (Chip_SetupIrcClocking)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o) (Chip_UART_Init)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o) (Chip_IRC_SetFreq)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o) (RingBuffer_Insert)
+D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o) (Chip_SYSCTL_PowerDown)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o) (memcpy)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc82x.o (__main)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+                              D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o) (__aeabi_uldivmod)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .data          0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .bss           0x00000000        0x0 ./src/aeabi_romdiv_patch.o
+ .text.__aeabi_idiv
+                0x00000000       0x10 ./src/aeabi_romdiv_patch.o
+ .group         0x00000000        0x8 ./src/cr_startup_lpc82x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc82x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc82x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc82x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x84a ./src/crp.o
+ .group         0x00000000        0x8 ./src/mtb.o
+ .group         0x00000000        0x8 ./src/mtb.o
+ .group         0x00000000        0x8 ./src/mtb.o
+ .text          0x00000000        0x0 ./src/mtb.o
+ .data          0x00000000        0x0 ./src/mtb.o
+ .bss           0x00000000        0x0 ./src/mtb.o
+ .debug_macro   0x00000000      0x84a ./src/mtb.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x84a ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./src/systick_delay.o
+ .text          0x00000000        0x0 ./src/systick_delay.o
+ .data          0x00000000        0x0 ./src/systick_delay.o
+ .bss           0x00000000        0x0 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x84a ./src/systick_delay.o
+ .debug_macro   0x00000000       0x10 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x12d ./src/systick_delay.o
+ .debug_macro   0x00000000      0x5b2 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x22 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x7b ./src/systick_delay.o
+ .debug_macro   0x00000000       0x16 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x28 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x3a ./src/systick_delay.o
+ .debug_macro   0x00000000       0x1f ./src/systick_delay.o
+ .debug_macro   0x00000000      0x250 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x1ae ./src/systick_delay.o
+ .debug_macro   0x00000000       0xca ./src/systick_delay.o
+ .debug_macro   0x00000000       0x6a ./src/systick_delay.o
+ .debug_macro   0x00000000       0x70 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x28 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x190 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x24 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x64 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x10 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x22 ./src/systick_delay.o
+ .debug_macro   0x00000000       0xb2 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x58 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x58 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x6a ./src/systick_delay.o
+ .debug_macro   0x00000000       0x82 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x16 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x16f ./src/systick_delay.o
+ .debug_macro   0x00000000       0x22 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x52 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x181 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x289 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x28b ./src/systick_delay.o
+ .debug_macro   0x00000000       0x2e ./src/systick_delay.o
+ .debug_macro   0x00000000       0x22 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x216 ./src/systick_delay.o
+ .debug_macro   0x00000000      0x1d5 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x16 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x9a ./src/systick_delay.o
+ .debug_macro   0x00000000       0x20 ./src/systick_delay.o
+ .debug_macro   0x00000000       0x82 ./src/systick_delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .group         0x00000000        0x8 ./delay/delay.o
+ .text          0x00000000        0x0 ./delay/delay.o
+ .data          0x00000000        0x0 ./delay/delay.o
+ .bss           0x00000000        0x0 ./delay/delay.o
+ .text.DelayUs  0x00000000       0x58 ./delay/delay.o
+ .debug_macro   0x00000000      0x84a ./delay/delay.o
+ .debug_macro   0x00000000       0x10 ./delay/delay.o
+ .debug_macro   0x00000000      0x12d ./delay/delay.o
+ .debug_macro   0x00000000      0x5b2 ./delay/delay.o
+ .debug_macro   0x00000000       0x22 ./delay/delay.o
+ .debug_macro   0x00000000       0x7b ./delay/delay.o
+ .debug_macro   0x00000000       0x16 ./delay/delay.o
+ .debug_macro   0x00000000       0x28 ./delay/delay.o
+ .debug_macro   0x00000000       0x3a ./delay/delay.o
+ .debug_macro   0x00000000       0x1f ./delay/delay.o
+ .debug_macro   0x00000000      0x250 ./delay/delay.o
+ .debug_macro   0x00000000      0x1ae ./delay/delay.o
+ .debug_macro   0x00000000       0xca ./delay/delay.o
+ .debug_macro   0x00000000       0x6a ./delay/delay.o
+ .debug_macro   0x00000000       0x70 ./delay/delay.o
+ .debug_macro   0x00000000       0x28 ./delay/delay.o
+ .debug_macro   0x00000000      0x190 ./delay/delay.o
+ .debug_macro   0x00000000       0x24 ./delay/delay.o
+ .debug_macro   0x00000000       0x64 ./delay/delay.o
+ .debug_macro   0x00000000       0x10 ./delay/delay.o
+ .debug_macro   0x00000000       0x22 ./delay/delay.o
+ .debug_macro   0x00000000       0xb2 ./delay/delay.o
+ .debug_macro   0x00000000       0x58 ./delay/delay.o
+ .debug_macro   0x00000000       0x58 ./delay/delay.o
+ .debug_macro   0x00000000       0x6a ./delay/delay.o
+ .debug_macro   0x00000000       0x82 ./delay/delay.o
+ .debug_macro   0x00000000       0x16 ./delay/delay.o
+ .debug_macro   0x00000000      0x16f ./delay/delay.o
+ .debug_macro   0x00000000       0x22 ./delay/delay.o
+ .debug_macro   0x00000000       0x52 ./delay/delay.o
+ .debug_macro   0x00000000      0x181 ./delay/delay.o
+ .debug_macro   0x00000000      0x289 ./delay/delay.o
+ .debug_macro   0x00000000      0x28b ./delay/delay.o
+ .debug_macro   0x00000000       0x2e ./delay/delay.o
+ .debug_macro   0x00000000       0x22 ./delay/delay.o
+ .debug_macro   0x00000000      0x216 ./delay/delay.o
+ .debug_macro   0x00000000      0x1d5 ./delay/delay.o
+ .debug_macro   0x00000000       0x16 ./delay/delay.o
+ .debug_macro   0x00000000       0x9a ./delay/delay.o
+ .debug_macro   0x00000000       0x20 ./delay/delay.o
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_GPIO_GetPinState
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.__sys_write
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.__sys_readc
+                0x00000000       0x18 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .rodata.keyBits
+                0x00000000        0x3 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .rodata.keyIoConNdce
+                0x00000000        0x3 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_LED_Test
+                0x00000000       0x50 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .rodata        0x00000000       0x48 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_itoa
+                0x00000000       0xb0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_UARTPutChar
+                0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_UARTPutTextChar
+                0x00000000       0x60 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_UARTGetChar
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_UARTPutSTR
+                0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .bss.prevChar.7241
+                0x00000000        0x1 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x9a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x83e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x9a D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_SetPLLBypass
+                0x00000000       0x48 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_SetCLKOUTSource
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetIOCONCLKDIVClockRate
+                0x00000000       0x4c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_SetIOCONCLKDIV
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .text.Chip_SWM_EnableFixedPin
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .text.Chip_SWM_DisableFixedPin
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .text.Chip_SWM_FixedPinEnable
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_Clock_SetupSystemPLL
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_Clock_IsSystemPLLLocked
+                0x00000000       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_Clock_SetSysClockDiv
+                0x00000000       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_FMC_SetFLASHAccess
+                0x00000000       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .text.Chip_SystemInit
+                0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_SendByte
+                0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_ReadByte
+                0x00000000       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_IntEnable
+                0x00000000       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_IntDisable
+                0x00000000       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_GetStatus
+                0x00000000       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_DeInit
+                0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_Send
+                0x00000000       0x54 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_SendBlocking
+                0x00000000       0x50 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_Read
+                0x00000000       0x54 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_ReadBlocking
+                0x00000000       0x50 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_RXIntHandlerRB
+                0x00000000       0x44 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_TXIntHandlerRB
+                0x00000000       0x48 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_SendRB
+                0x00000000       0x6c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_ReadRB
+                0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_IRQRBHandler
+                0x00000000       0x54 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .rodata.config_tab_ct
+                0x00000000        0x2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_IRC_SetFreq_ROM
+                0x00000000       0x98 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_GetCount
+                0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_GetFree
+                0x00000000       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_IsFull
+                0x00000000       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_Init
+                0x00000000       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_Insert
+                0x00000000       0x5c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_InsertMult
+                0x00000000      0x120 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_Pop
+                0x00000000       0x5c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .text.RingBuffer_PopMult
+                0x00000000      0x120 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_info    0x00000000      0x344 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_abbrev  0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_aranges
+                0x00000000       0x60 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_ranges  0x00000000       0x50 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x83 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x74 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_line    0x00000000      0x23a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_str     0x00000000     0x3ed7 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .comment       0x00000000       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .debug_frame   0x00000000      0x130 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .ARM.attributes
+                0x00000000       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(ring_buffer.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .group         0x00000000        0x8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .text          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .data          0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .bss           0x00000000        0x0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetDeepSleepPD
+                0x00000000       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetWakeup
+                0x00000000       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x12d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x5b2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x7b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x3a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x1f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x250 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x1ae D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0xca D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x70 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x190 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0xb2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x6a D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x82 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x16 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x16f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x52 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x181 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x289 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x28b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x2e D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000       0x22 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x216 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .debug_macro   0x00000000      0x1d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x32 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x00000000       0x2a c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash32         0x00000000         0x00008000         xr
+RamLoc8          0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/aeabi_romdiv_patch.o
+LOAD ./src/cr_startup_lpc82x.o
+LOAD ./src/crp.o
+LOAD ./src/mtb.o
+LOAD ./src/sysinit.o
+LOAD ./src/systick_delay.o
+LOAD ./delay/delay.o
+LOAD D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a
+LOAD D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash32 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00008000                __top_MFlash32 = 0x8000
+                0x00008000                __top_Flash = 0x8000
+                0x10000000                __base_RamLoc8 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10002000                __top_RamLoc8 = 0x10002000
+                0x10002000                __top_RAM = 0x10002000
+
+.text           0x00000000     0x1530
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./src/cr_startup_lpc82x.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x1530 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000100 ADDR (.data)
+                0x000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000cc                __data_section_table_end = .
+                0x000000cc                __bss_section_table = .
+                0x000000cc        0x4 LONG 0x10000100 ADDR (.bss)
+                0x000000d0        0x4 LONG 0x14 SIZEOF (.bss)
+                0x000000d4                __bss_section_table_end = .
+                0x000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000d4      0x150 ./src/cr_startup_lpc82x.o
+                0x000000d4                data_init
+                0x00000114                bss_init
+                0x00000148                ResetISR
+                0x000001f4                NMI_Handler
+                0x000001fc                HardFault_Handler
+                0x00000204                SVC_Handler
+                0x0000020c                PendSV_Handler
+                0x00000214                SysTick_Handler
+                0x0000021c                UART1_IRQHandler
+                0x0000021c                ADC_SEQB_IRQHandler
+                0x0000021c                UART0_IRQHandler
+                0x0000021c                I2C1_IRQHandler
+                0x0000021c                MRT_IRQHandler
+                0x0000021c                SPI1_IRQHandler
+                0x0000021c                PIN_INT6_IRQHandler
+                0x0000021c                IntDefaultHandler
+                0x0000021c                PIN_INT4_IRQHandler
+                0x0000021c                I2C0_IRQHandler
+                0x0000021c                I2C2_IRQHandler
+                0x0000021c                CMP_IRQHandler
+                0x0000021c                UART2_IRQHandler
+                0x0000021c                PIN_INT5_IRQHandler
+                0x0000021c                PIN_INT2_IRQHandler
+                0x0000021c                PIN_INT7_IRQHandler
+                0x0000021c                ADC_THCMP_IRQHandler
+                0x0000021c                PIN_INT1_IRQHandler
+                0x0000021c                BOD_IRQHandler
+                0x0000021c                I2C3_IRQHandler
+                0x0000021c                SCT_IRQHandler
+                0x0000021c                WDT_IRQHandler
+                0x0000021c                WKT_IRQHandler
+                0x0000021c                ADC_SEQA_IRQHandler
+                0x0000021c                PIN_INT0_IRQHandler
+                0x0000021c                SPI0_IRQHandler
+                0x0000021c                ADC_OVR_IRQHandler
+                0x0000021c                DMA_IRQHandler
+                0x0000021c                PIN_INT3_IRQHandler
+                0x0000021c                FLASH_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000224       0xd8 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.__aeabi_uidiv
+                0x00000300       0x10 ./src/aeabi_romdiv_patch.o
+                0x00000300                __aeabi_uidivmod
+                0x00000300                __aeabi_uidiv
+ .text.SystemInit
+                0x00000310       0x10 ./src/sysinit.o
+                0x00000310                SystemInit
+ .text.main     0x00000320       0x34 ./src/systick_delay.o
+                0x00000320                main
+ .text.DelayInit
+                0x00000354       0x44 ./delay/delay.o
+                0x00000354                DelayInit
+ .text.DelayMs  0x00000398       0x5c ./delay/delay.o
+                0x00000398                DelayMs
+ .text.Chip_Clock_EnablePeriphClock
+                0x000003f4       0x3c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000430       0x3c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_Clock_SetUARTClockDiv
+                0x0000046c       0x1c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_SWM_DisableFixedPin
+                0x00000488       0x3c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_GPIO_SetPinState
+                0x000004c4       0x40 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000504       0x3c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_GPIO_SetPinToggle
+                0x00000540       0x40 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_UART_Enable
+                0x00000580       0x24 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_UART_TXEnable
+                0x000005a4       0x20 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Chip_UART_ConfigData
+                0x000005c4       0x2c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_LED_Init
+                0x000005f0       0x4c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_UART_Init
+                0x0000063c       0x38 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .text.Board_LED_Set
+                0x00000674       0x48 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x00000674                Board_LED_Set
+ .text.Board_LED_Toggle
+                0x000006bc       0x34 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x000006bc                Board_LED_Toggle
+ .text.Board_Debug_Init
+                0x000006f0       0x50 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x000006f0                Board_Debug_Init
+ .text.Board_Init
+                0x00000740       0x1c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x00000740                Board_Init
+ .text.Chip_Clock_EnablePeriphClock
+                0x0000075c       0x3c D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .text.Board_SetupMuxing
+                0x00000798       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+                0x00000798                Board_SetupMuxing
+ .text.Board_SetupClocking
+                0x000007a8       0x10 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+                0x000007a8                Board_SetupClocking
+ .text.Board_SystemInit
+                0x000007b8       0x14 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+                0x000007b8                Board_SystemInit
+ .text.SystemCoreClockUpdate
+                0x000007cc       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+                0x000007cc                SystemCoreClockUpdate
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x000007e4       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x0000081c       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_PeriphReset
+                0x00000854       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_SetUARTClockDiv
+                0x0000087c       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetUARTClockDiv
+                0x00000898       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_SetUSARTFRGDivider
+                0x000008b0       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_GetUSARTFRGDivider
+                0x000008d4       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_SetUSARTFRGMultiplier
+                0x000008ec       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_SYSCTL_GetUSARTFRGMultiplier
+                0x00000910       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetMainOscRate
+                0x00000928       0x14 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x0000093c       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetExtClockInRate
+                0x0000094c       0x14 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetWDTLFORate
+                0x00000960       0x48 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_GetPLLFreq
+                0x000009a8       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .text.Chip_Clock_SetSystemPLLSource
+                0x000009cc       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x000009cc                Chip_Clock_SetSystemPLLSource
+ .text.Chip_Clock_SetMainClockSource
+                0x000009f8       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x000009f8                Chip_Clock_SetMainClockSource
+ .text.Chip_Clock_GetWDTOSCRate
+                0x00000a24       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000a24                Chip_Clock_GetWDTOSCRate
+ .text.Chip_Clock_GetSystemPLLInClockRate
+                0x00000a44       0x4c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000a44                Chip_Clock_GetSystemPLLInClockRate
+ .text.Chip_Clock_GetSystemPLLOutClockRate
+                0x00000a90       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000a90                Chip_Clock_GetSystemPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x00000ab8       0x60 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000ab8                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x00000b18       0x24 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000b18                Chip_Clock_GetSystemClockRate
+ .text.Chip_Clock_GetUSARTNBaseClockRate
+                0x00000b3c       0x84 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000b3c                Chip_Clock_GetUSARTNBaseClockRate
+ .text.Chip_Clock_SetUSARTNBaseClockRate
+                0x00000bc0       0x84 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                0x00000bc0                Chip_Clock_SetUSARTNBaseClockRate
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000c44       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .text.Chip_GPIO_Init
+                0x00000c80       0x18 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+                0x00000c80                Chip_GPIO_Init
+ .text.Chip_SWM_MovablePinAssign
+                0x00000c98       0x64 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+                0x00000c98                Chip_SWM_MovablePinAssign
+ .text.Chip_SetupIrcClocking
+                0x00000cfc       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                0x00000cfc                Chip_SetupIrcClocking
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x00000d1c       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x00000d54       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_SYSCTL_PeriphReset
+                0x00000d8c       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000db4       0x3c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.getUARTClockID
+                0x00000df0       0x34 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .text.Chip_UART_Init
+                0x00000e24       0x50 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+                0x00000e24                Chip_UART_Init
+ .text.Chip_UART_SetBaud
+                0x00000e74       0x30 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+                0x00000e74                Chip_UART_SetBaud
+ .text.Chip_Clock_SetupSystemPLL
+                0x00000ea4       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_Clock_IsSystemPLLLocked
+                0x00000edc       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_Clock_SetSysClockDiv
+                0x00000ef8       0x1c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_FMC_SetFLASHAccess
+                0x00000f14       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.pll_config
+                0x00000f40       0x6c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .text.Chip_IRC_SetFreq
+                0x00000fac       0xf4 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00000fac                Chip_IRC_SetFreq
+ .text.Chip_SYSCTL_PowerDown
+                0x000010a0       0x44 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x000010a0                Chip_SYSCTL_PowerDown
+ .text.Chip_SYSCTL_PowerUp
+                0x000010e4       0x44 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                0x000010e4                Chip_SYSCTL_PowerUp
+ .text.__weak_main
+                0x00001128        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x00001128                __weak_main
+                0x00001128                __main
+ .text.__aeabi_division_uldivmod
+                0x00001130       0x5a c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+                0x00001130                __aeabi_uldivmod
+ .text.__aeabi_division_idiv0
+                0x0000118a        0x2 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x0000118a                __aeabi_idiv0
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.ledBits
+                0x0000118c        0x8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .rodata.OscRateIn
+                0x00001194        0x4 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x00001194                OscRateIn
+ .rodata.ExtRateIn
+                0x00001198        0x4 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                0x00001198                ExtRateIn
+ .rodata.wdtOSCRate
+                0x0000119c       0x40 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .rodata.config_tab
+                0x000011dc      0x354 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                0x00001530                . = ALIGN (0x4)
+
+.glue_7         0x00001530        0x0
+ .glue_7        0x00001530        0x0 linker stubs
+
+.glue_7t        0x00001530        0x0
+ .glue_7t       0x00001530        0x0 linker stubs
+
+.vfp11_veneer   0x00001530        0x0
+ .vfp11_veneer  0x00001530        0x0 linker stubs
+
+.v4_bx          0x00001530        0x0
+ .v4_bx         0x00001530        0x0 linker stubs
+
+.iplt           0x00001530        0x0
+ .iplt          0x00001530        0x0 ./src/aeabi_romdiv_patch.o
+
+.rel.dyn        0x00001530        0x0
+ .rel.iplt      0x00001530        0x0 ./src/aeabi_romdiv_patch.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00001530                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00001530                __exidx_end = .
+                0x00001530                _etext = .
+
+.mtb_buffer_default
+                0x10000000      0x100
+ *(.mtb*)
+ .mtb.$RAM1     0x10000000      0x100 ./src/mtb.o
+                0x10000000                __mtb_buffer__
+
+.uninit_RESERVED
+                0x10000100        0x0
+ *(.bss.$RESERVED*)
+                0x10000100                . = ALIGN (0x4)
+                0x10000100                _end_uninit_RESERVED = .
+
+.data           0x10000100        0x0 load address 0x00001530
+ FILL mask 0xff
+                0x10000100                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000100                . = ALIGN (0x4)
+                0x10000100                _edata = .
+
+.igot.plt       0x10000100        0x0 load address 0x00001530
+ .igot.plt      0x10000100        0x0 ./src/aeabi_romdiv_patch.o
+
+.bss            0x10000100       0x14 load address 0x00001530
+                0x10000100                _bss = .
+ *(.bss*)
+ .bss.pDivRom_idiv
+                0x10000100        0x4 ./src/cr_startup_lpc82x.o
+                0x10000100                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x10000104        0x4 ./src/cr_startup_lpc82x.o
+                0x10000104                pDivRom_uidiv
+ .bss.facUs     0x10000108        0x1 ./delay/delay.o
+ *fill*         0x10000109        0x1 
+ .bss.facMs     0x1000010a        0x2 ./delay/delay.o
+ .bss.config_tab_idx
+                0x1000010c        0x2 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ *(COMMON)
+ *fill*         0x1000010e        0x2 
+ COMMON         0x10000110        0x4 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+                0x10000110                SystemCoreClock
+                0x10000114                . = ALIGN (0x4)
+                0x10000114                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit         0x10000114        0x0 load address 0x00001530
+                0x10000114                _noinit = .
+ *(.noinit*)
+                0x10000114                . = ALIGN (0x4)
+                0x10000114                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10002000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc8 - 0x0))
+                0xefffdac5                PROVIDE (__valid_user_code_checksum, (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+OUTPUT(systick_delay.axf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 ./src/aeabi_romdiv_patch.o
+ .ARM.attributes
+                0x00000021       0x31 ./src/cr_startup_lpc82x.o
+ .ARM.attributes
+                0x00000052       0x31 ./src/crp.o
+ .ARM.attributes
+                0x00000083       0x31 ./src/mtb.o
+ .ARM.attributes
+                0x000000b4       0x31 ./src/sysinit.o
+ .ARM.attributes
+                0x000000e5       0x31 ./src/systick_delay.o
+ .ARM.attributes
+                0x00000116       0x31 ./delay/delay.o
+ .ARM.attributes
+                0x00000147       0x31 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .ARM.attributes
+                0x00000178       0x31 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .ARM.attributes
+                0x000001a9       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .ARM.attributes
+                0x000001da       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .ARM.attributes
+                0x0000020b       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .ARM.attributes
+                0x0000023c       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .ARM.attributes
+                0x0000026d       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .ARM.attributes
+                0x0000029e       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .ARM.attributes
+                0x000002cf       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .ARM.attributes
+                0x00000300       0x31 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .ARM.attributes
+                0x00000331       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000362       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000383       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/cr_startup_lpc82x.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/crp.o
+ .comment       0x0000006e       0x6f ./src/mtb.o
+ .comment       0x0000006e       0x6f ./src/sysinit.o
+ .comment       0x0000006e       0x6f ./src/systick_delay.o
+ .comment       0x0000006e       0x6f ./delay/delay.o
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .comment       0x0000006e       0x6f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                                 0x6f (size before relaxing)
+
+.debug_line     0x00000000     0x3d42
+ .debug_line    0x00000000       0x65 ./src/aeabi_romdiv_patch.o
+ .debug_line    0x00000065       0xbe ./src/cr_startup_lpc82x.o
+ .debug_line    0x00000123       0x78 ./src/crp.o
+ .debug_line    0x0000019b       0x95 ./src/mtb.o
+ .debug_line    0x00000230      0x3fc ./src/sysinit.o
+ .debug_line    0x0000062c      0x4a5 ./src/systick_delay.o
+ .debug_line    0x00000ad1      0x486 ./delay/delay.o
+ .debug_line    0x00000f57      0x674 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_line    0x000015cb      0x43e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_line    0x00001a09      0x398 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_line    0x00001da1      0x5e7 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_line    0x00002388      0x3d1 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_line    0x00002759      0x3d8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_line    0x00002b31      0x420 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_line    0x00002f51      0x5bc D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_line    0x0000350d      0x460 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_line    0x0000396d      0x3d5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_info     0x00000000     0x5981
+ .debug_info    0x00000000       0x72 ./src/aeabi_romdiv_patch.o
+ .debug_info    0x00000072      0x239 ./src/cr_startup_lpc82x.o
+ .debug_info    0x000002ab       0x3f ./src/crp.o
+ .debug_info    0x000002ea       0x51 ./src/mtb.o
+ .debug_info    0x0000033b       0xc3 ./src/sysinit.o
+ .debug_info    0x000003fe       0xd2 ./src/systick_delay.o
+ .debug_info    0x000004d0      0x2c4 ./delay/delay.o
+ .debug_info    0x00000794      0xfc8 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_info    0x0000175c      0x4f9 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_info    0x00001c55      0x1cb D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_info    0x00001e20      0xb7f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_info    0x0000299f      0x665 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_info    0x00003004      0x3f1 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_info    0x000033f5      0x5ea D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_info    0x000039df      0xbc6 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_info    0x000045a5      0xf4d D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_info    0x000054f2      0x48f D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_abbrev   0x00000000     0x11cd
+ .debug_abbrev  0x00000000       0x12 ./src/aeabi_romdiv_patch.o
+ .debug_abbrev  0x00000012       0xf5 ./src/cr_startup_lpc82x.o
+ .debug_abbrev  0x00000107       0x36 ./src/crp.o
+ .debug_abbrev  0x0000013d       0x41 ./src/mtb.o
+ .debug_abbrev  0x0000017e       0x6a ./src/sysinit.o
+ .debug_abbrev  0x000001e8       0x6c ./src/systick_delay.o
+ .debug_abbrev  0x00000254      0x10a ./delay/delay.o
+ .debug_abbrev  0x0000035e      0x222 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_abbrev  0x00000580       0xef D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_abbrev  0x0000066f       0x93 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_abbrev  0x00000702      0x272 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_abbrev  0x00000974      0x127 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_abbrev  0x00000a9b      0x138 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_abbrev  0x00000bd3      0x141 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_abbrev  0x00000d14      0x1f6 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_abbrev  0x00000f0a      0x1f5 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_abbrev  0x000010ff       0xce D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_aranges  0x00000000      0x578
+ .debug_aranges
+                0x00000000       0x28 ./src/aeabi_romdiv_patch.o
+ .debug_aranges
+                0x00000028       0x60 ./src/cr_startup_lpc82x.o
+ .debug_aranges
+                0x00000088       0x18 ./src/crp.o
+ .debug_aranges
+                0x000000a0       0x18 ./src/mtb.o
+ .debug_aranges
+                0x000000b8       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x000000d8       0x20 ./src/systick_delay.o
+ .debug_aranges
+                0x000000f8       0x30 ./delay/delay.o
+ .debug_aranges
+                0x00000128       0xe0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_aranges
+                0x00000208       0x38 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_aranges
+                0x00000240       0x20 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_aranges
+                0x00000260       0xf0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_aranges
+                0x00000350       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_aranges
+                0x00000388       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_aranges
+                0x000003c0       0x50 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_aranges
+                0x00000410       0xd8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_aranges
+                0x000004e8       0x58 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_aranges
+                0x00000540       0x38 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_ranges   0x00000000      0x460
+ .debug_ranges  0x00000000       0x20 ./src/aeabi_romdiv_patch.o
+ .debug_ranges  0x00000020       0x50 ./src/cr_startup_lpc82x.o
+ .debug_ranges  0x00000070       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000080       0x10 ./src/systick_delay.o
+ .debug_ranges  0x00000090       0x20 ./delay/delay.o
+ .debug_ranges  0x000000b0       0xd0 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_ranges  0x00000180       0x28 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_ranges  0x000001a8       0x10 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_ranges  0x000001b8       0xe0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_ranges  0x00000298       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_ranges  0x000002c0       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_ranges  0x000002e8       0x40 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_ranges  0x00000328       0xc8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_ranges  0x000003f0       0x48 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_ranges  0x00000438       0x28 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_macro    0x00000000     0x5588
+ .debug_macro   0x00000000       0x23 ./src/cr_startup_lpc82x.o
+ .debug_macro   0x00000023      0x84a ./src/cr_startup_lpc82x.o
+ .debug_macro   0x0000086d       0x1a ./src/crp.o
+ .debug_macro   0x00000887       0x34 ./src/crp.o
+ .debug_macro   0x000008bb       0x29 ./src/mtb.o
+ .debug_macro   0x000008e4       0x82 ./src/mtb.o
+ .debug_macro   0x00000966       0x10 ./src/mtb.o
+ .debug_macro   0x00000976      0x234 ./src/sysinit.o
+ .debug_macro   0x00000baa       0x10 ./src/sysinit.o
+ .debug_macro   0x00000bba      0x12d ./src/sysinit.o
+ .debug_macro   0x00000ce7      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00001299       0x22 ./src/sysinit.o
+ .debug_macro   0x000012bb       0x7b ./src/sysinit.o
+ .debug_macro   0x00001336       0x16 ./src/sysinit.o
+ .debug_macro   0x0000134c       0x28 ./src/sysinit.o
+ .debug_macro   0x00001374       0x3a ./src/sysinit.o
+ .debug_macro   0x000013ae       0x1f ./src/sysinit.o
+ .debug_macro   0x000013cd      0x250 ./src/sysinit.o
+ .debug_macro   0x0000161d      0x1ae ./src/sysinit.o
+ .debug_macro   0x000017cb       0xca ./src/sysinit.o
+ .debug_macro   0x00001895       0x6a ./src/sysinit.o
+ .debug_macro   0x000018ff       0x70 ./src/sysinit.o
+ .debug_macro   0x0000196f       0x28 ./src/sysinit.o
+ .debug_macro   0x00001997      0x190 ./src/sysinit.o
+ .debug_macro   0x00001b27       0x24 ./src/sysinit.o
+ .debug_macro   0x00001b4b       0x64 ./src/sysinit.o
+ .debug_macro   0x00001baf       0x10 ./src/sysinit.o
+ .debug_macro   0x00001bbf       0x22 ./src/sysinit.o
+ .debug_macro   0x00001be1       0xb2 ./src/sysinit.o
+ .debug_macro   0x00001c93       0x58 ./src/sysinit.o
+ .debug_macro   0x00001ceb       0x58 ./src/sysinit.o
+ .debug_macro   0x00001d43       0x6a ./src/sysinit.o
+ .debug_macro   0x00001dad       0x82 ./src/sysinit.o
+ .debug_macro   0x00001e2f       0x16 ./src/sysinit.o
+ .debug_macro   0x00001e45      0x16f ./src/sysinit.o
+ .debug_macro   0x00001fb4       0x22 ./src/sysinit.o
+ .debug_macro   0x00001fd6       0x52 ./src/sysinit.o
+ .debug_macro   0x00002028      0x181 ./src/sysinit.o
+ .debug_macro   0x000021a9      0x289 ./src/sysinit.o
+ .debug_macro   0x00002432      0x28b ./src/sysinit.o
+ .debug_macro   0x000026bd       0x2e ./src/sysinit.o
+ .debug_macro   0x000026eb       0x22 ./src/sysinit.o
+ .debug_macro   0x0000270d      0x216 ./src/sysinit.o
+ .debug_macro   0x00002923      0x1d5 ./src/sysinit.o
+ .debug_macro   0x00002af8       0x16 ./src/sysinit.o
+ .debug_macro   0x00002b0e       0x9a ./src/sysinit.o
+ .debug_macro   0x00002ba8       0x20 ./src/sysinit.o
+ .debug_macro   0x00002bc8      0x247 ./src/systick_delay.o
+ .debug_macro   0x00002e0f      0x23e ./delay/delay.o
+ .debug_macro   0x0000304d      0x257 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x000032a4      0x83e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00003ae2       0x12 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_macro   0x00003af4      0x234 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_macro   0x00003d28      0x1ff D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x00003f27      0x838 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_macro   0x0000475f      0x1ff D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_macro   0x0000495e      0x1ff D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_macro   0x00004b5d      0x20b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_macro   0x00004d68      0x20b D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_macro   0x00004f73      0x1ff D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_macro   0x00005172      0x1ff D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_macro   0x00005371      0x217 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+
+.debug_str      0x00000000     0xe346
+ .debug_str     0x00000000     0x2575 ./src/cr_startup_lpc82x.o
+                               0x2588 (size before relaxing)
+ .debug_str     0x00002575       0xe9 ./src/crp.o
+                               0x2494 (size before relaxing)
+ .debug_str     0x0000265e      0x519 ./src/mtb.o
+                               0x28c5 (size before relaxing)
+ .debug_str     0x00002b77     0x90e3 ./src/sysinit.o
+                               0xb53e (size before relaxing)
+ .debug_str     0x0000bc5a       0x31 ./src/systick_delay.o
+                               0xb9a1 (size before relaxing)
+ .debug_str     0x0000bc8b      0x239 ./delay/delay.o
+                               0xb771 (size before relaxing)
+ .debug_str     0x0000bec4      0xd93 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+                               0xc49c (size before relaxing)
+ .debug_str     0x0000cc57       0x4e D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+                               0xb982 (size before relaxing)
+ .debug_str     0x0000cca5      0x106 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+                               0xb3d7 (size before relaxing)
+ .debug_str     0x0000cdab      0x7bd D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+                               0xbda3 (size before relaxing)
+ .debug_str     0x0000d568       0x32 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+                               0xb67d (size before relaxing)
+ .debug_str     0x0000d59a       0xe8 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+                               0xb7b4 (size before relaxing)
+ .debug_str     0x0000d682      0x161 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+                               0xb637 (size before relaxing)
+ .debug_str     0x0000d7e3      0x1f3 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+                               0xb9a2 (size before relaxing)
+ .debug_str     0x0000d9d6      0x85c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+                               0xc017 (size before relaxing)
+ .debug_str     0x0000e232      0x114 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
+                               0xb4f3 (size before relaxing)
+
+.debug_frame    0x00000000      0xfb0
+ .debug_frame   0x00000000      0x118 ./src/cr_startup_lpc82x.o
+ .debug_frame   0x00000118       0x2c ./src/sysinit.o
+ .debug_frame   0x00000144       0x2c ./src/systick_delay.o
+ .debug_frame   0x00000170       0x70 ./delay/delay.o
+ .debug_frame   0x000001e0      0x324 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board.o)
+ .debug_frame   0x00000504       0x84 D:\Board\LPC824Lite\workspace\lpc_board_ucdrogon_lpc824lite\Debug\liblpc_board_ucdrogon_lpc824lite.a(board_sysinit.o)
+ .debug_frame   0x00000588       0x2c D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(chip_8xx.o)
+ .debug_frame   0x000005b4      0x354 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(clock_8xx.o)
+ .debug_frame   0x00000908       0x90 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(gpio_8xx.o)
+ .debug_frame   0x00000998       0x90 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(swm_8xx.o)
+ .debug_frame   0x00000a28       0xe0 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(sysinit_8xx.o)
+ .debug_frame   0x00000b08      0x310 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(uart_8xx.o)
+ .debug_frame   0x00000e18      0x108 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(irc_8xx.o)
+ .debug_frame   0x00000f20       0x90 D:\Board\LPC824Lite\workspace\lpc_chip_82x\Debug\liblpc_chip_82x.a(syscon_8xx.o)
